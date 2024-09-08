@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+#search-image {
+  width: 30px;
+  height: 30px;
+}
+
+body {
+  background-image: linear-gradient(to right, black, white);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#poke {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  width: 95%;
+  max-width: 450px;
+  padding: 25px;
+  border-radius: 25px;
+}
+
+#pkm-img {
+  width: 200px;
+  height: 200px;
+}
+
+#search-input {
+  padding: 15px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background-color: #ff3d3d;
+}
+
+#search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+#search-button {
+  border-radius: 50px;
+  background-color: #ff3d3d;
+  border: none;
+  cursor: pointer;
+}
+
+* {
+  font-family: 'Oxanium', cursive;
+}
